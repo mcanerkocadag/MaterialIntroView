@@ -1,7 +1,6 @@
 package co.mobiwise.materialintro.view;
 
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -11,6 +10,7 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.os.Build;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -23,9 +23,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import androidx.annotation.Nullable;
-
 import co.mobiwise.materialintro.MaterialIntroConfiguration;
 import co.mobiwise.materialintro.R;
 import co.mobiwise.materialintro.animation.AnimationFactory;
@@ -416,7 +413,7 @@ public class MaterialIntroView extends RelativeLayout {
      *
      * @param activity
      */
-    private void show(Activity activity) {
+    private void show(AppCompatActivity activity) {
 
         if (preferencesManager.isDisplayed(materialIntroViewId))
             return;
@@ -701,11 +698,11 @@ public class MaterialIntroView extends RelativeLayout {
 
         private MaterialIntroView materialIntroView;
 
-        private Activity activity;
+        private AppCompatActivity activity;
 
         private Focus focusType = Focus.MINIMUM;
 
-        public Builder(Activity activity) {
+        public Builder(AppCompatActivity activity) {
             this.activity = activity;
             materialIntroView = new MaterialIntroView(activity);
         }

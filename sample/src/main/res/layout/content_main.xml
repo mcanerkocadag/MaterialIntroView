@@ -13,14 +13,14 @@
     tools:context="co.mobiwise.sample.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <androidx.cardview.widget.CardView
+    <android.support.v7.widget.CardView
         android:id="@+id/my_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="@color/colorPrimary"
         app:cardCornerRadius="4dp"
         android:clickable="true"
-        android:foreground="?android:attr/selectableItemBackground">
+        android:foreground="?attr/selectableItemBackground">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
                 android:textSize="15sp"/>
         </RelativeLayout>
 
-    </androidx.cardview.widget.CardView>
+    </android.support.v7.widget.CardView>
 
     <Button
         android:id="@+id/button_reset_all"
