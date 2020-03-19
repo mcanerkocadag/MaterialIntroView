@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\PROJECTS\AndroidProjects\MaterialIntroView\materialintro\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2180f30089d6cbbc49ae1ebdfebb065cd6f9b607">
+        <dex dex="C:\PROJECTS\AndroidProjects\MaterialIntroView\sample\build\intermediates\pre-dexed\debug\classes_6a7d2d127c828ad8f90d2d84beb0bf252bf8656d.jar" />
+    </item>
+
+</items>

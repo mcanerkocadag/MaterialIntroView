@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+dimen cardview_margin
+dimen info_text_size
+drawable icon_dotview
+drawable icon_question
+id card_view
+id dotView
+id imageview_icon
+id info_layout
+id layout_info_main
+id skip_button
+id textview_info
+layout dotview
+layout material_intro_card
+string app_name
